@@ -1,0 +1,145 @@
+{
+  "repository": {
+    "name": "zillow-property-details-python",
+    "description": "Python examples for Zillow property details with Apify: enrich known listing URLs or a Dataset, inspect partial results, and export JSON or CSV.",
+    "homepage": "https://apify.com/datascraperes/zillow-property-detail-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Zillow Property Details Scraper | URLs & Datasets",
+    "id": "datascraperes/zillow-property-detail-scraper",
+    "storeUrl": "https://apify.com/datascraperes/zillow-property-detail-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~zillow-property-detail-scraper",
+    "description": "Collect available property facts, estimates, history, photo URLs and building inventory from known Zillow records."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/zillow-property-detail-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "startUrls",
+      "inputLabel": "Property and building URLs",
+      "inputSummary": "Paste a Zillow property URL, supply an exact address, or read identifiers from an existing Dataset.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Zillow property details Python examples",
+    "secondaryKeywords": [
+      "Zillow Dataset enrichment Python",
+      "Zillow property details CSV export",
+      "Zillow listing URLs to JSON"
+    ],
+    "topics": [
+      "zillow",
+      "apify",
+      "python",
+      "real-estate",
+      "property-data",
+      "csv",
+      "api-examples"
+    ],
+    "longTailIntents": [
+      "Get known Zillow property details with Python",
+      "Enrich a Zillow search Dataset with property facts",
+      "Export an existing property Dataset to CSV without a new run"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/property_details.py",
+      "examples/python/enrich_dataset.py",
+      "examples/python/export_dataset.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per saved Dataset record; current price depends on the Apify user tier. No separate start fee.",
+    "unit": "one saved Dataset record",
+    "price": "$1.20–$2.40 per 1,000 saved records, depending on tier (verified 2026-10-22)"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/zillow-property-details-python",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/zillow-property-details-python",
+    "githubToActorUrl": "https://apify.com/datascraperes/zillow-property-detail-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "Initial public examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/zillow-property-details-python",
+      "Zillow property details Python examples zillow-property-details-python"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/zillow-property-details-python/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/zillow-property-detail-scraper?fpr=edudata"
+  }
+}

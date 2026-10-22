@@ -1,0 +1,21 @@
+[
+  {
+    "recordType": "property",
+    "recordId": "property:15800416",
+    "sourceInput": "https://www.zillow.com/homedetails/17199-Park-Ave-Sonoma-CA-95476/15800416_zpid/",
+    "zpid": 15800416,
+    "propertyUrl": "https://www.zillow.com/homedetails/17199-Park-Ave-Sonoma-CA-95476/15800416_zpid/",
+    "listingPrice": {
+      "amount": 499400,
+      "currency": "USD",
+      "formatted": null
+    },
+    "listingStatus": "offMarket",
+    "zestimate": 499400,
+    "rentZestimate": 2356,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "livingArea": 636,
+    "yearBuilt": 1920
+  }
+]

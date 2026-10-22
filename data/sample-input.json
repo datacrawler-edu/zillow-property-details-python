@@ -1,0 +1,12 @@
+{
+  "startUrls": [
+    {
+      "url": "https://www.zillow.com/homedetails/17199-Park-Ave-Sonoma-CA-95476/15800416_zpid/"
+    }
+  ],
+  "addresses": [],
+  "propertyStatus": "FOR_SALE",
+  "extractBuildingUnits": "disabled",
+  "searchResultsDatasetId": "",
+  "maxResults": 1
+}

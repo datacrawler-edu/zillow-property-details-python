@@ -1,0 +1,2 @@
+recordType,recordId,sourceInput,zpid,propertyUrl,listingPrice,listingStatus,zestimate,rentZestimate,bedrooms,bathrooms,livingArea,yearBuilt
+property,property:15800416,https://www.zillow.com/homedetails/17199-Park-Ave-Sonoma-CA-95476/15800416_zpid/,15800416,https://www.zillow.com/homedetails/17199-Park-Ave-Sonoma-CA-95476/15800416_zpid/,"{""amount"": 499400, ""currency"": ""USD"", ""formatted"": null}",offMarket,499400,2356,2,1,636,1920
